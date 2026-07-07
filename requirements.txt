@@ -1,0 +1,8 @@
+streamlit
+tensorflow-cpu
+catboost
+scikit-learn
+opencv-python-headless
+joblib
+pillow
+numpy
