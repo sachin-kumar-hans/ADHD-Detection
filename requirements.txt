@@ -1,8 +1,8 @@
 streamlit
-tensorflow-cpu
+tensorflow==2.15.0
 catboost
 scikit-learn
 opencv-python-headless
 joblib
 pillow
-numpy
+numpy<2.0.0
