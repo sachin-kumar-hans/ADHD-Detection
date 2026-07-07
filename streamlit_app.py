@@ -7,7 +7,7 @@ from catboost import CatBoostClassifier
 from PIL import Image
 
 # --- PAGE SETUP ---
-st.set_page_config(page_title="ADHD Neural Diagnostic Portal", page_icon="🧠", layout="centered")
+st.set_page_config(page_title="MCB-Net: ADHD Neural Diagnostic Portal", page_icon="🧠", layout="centered")
 
 st.markdown("""
     <style>
@@ -16,8 +16,8 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<p class="main-title">CLINICAL DIAGNOSTIC NEURAL SUPPORT SYSTEMS (ADHD)</p>', unsafe_allow_html=True)
-st.write("Upload a structural brain MRI slice scan below to run the Hybrid Capsule Net pipeline.")
+st.markdown('<p class="main-title">MCB-Net</p>', unsafe_allow_html=True)
+st.write("Upload a sMRI or fMRI slice")
 
 # --- MODEL LOADING WITH CACHING ---
 class CapsuleLayer(tf.keras.layers.Layer):
